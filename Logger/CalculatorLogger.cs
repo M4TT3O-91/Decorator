@@ -16,7 +16,7 @@ namespace Logger
         {
             var res = _calculator.Add(first, second);
             Console.WriteLine($"{first} + {second} = {res}");
-            return res
+            return res;
         }
 
         public int Sub(int first, int second)
