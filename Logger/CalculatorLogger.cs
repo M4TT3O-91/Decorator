@@ -8,9 +8,9 @@ namespace Logger
 {
     public class CalculatorLogger : ICalculator
     {
-        private Calculator _calculator;
+        private ICalculator _calculator;
 
-        public CalculatorLogger(Calculator calculator) => _calculator = calculator;
+        public CalculatorLogger(ICalculator calculator) => _calculator = calculator;
 
         public int Add(int first, int second)
         {
